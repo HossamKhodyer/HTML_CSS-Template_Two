@@ -409,12 +409,15 @@ body {
 
         .services .srvs-container .srv-box {
             flex-direction: column;
-
+            margin-left: -50px;
+            margin-right: 150px;
         }
 
         .services .srvs-container .srv-box i {
             margin: 0 auto 20px;
         }
+
+
 
     }
 
@@ -1117,6 +1120,15 @@ body {
         padding: 20px 20px 20px 60px;
         border: 1px white solid;
         border-right-color: transparent;
+
+    }
+
+    @media (max-width:991px) {
+
+        .subscribe .Container form input[type=email] {
+            width: calc(100% - 130px);
+        }
+
     }
 
     .subscribe .Container form input[type=email]:hover {
